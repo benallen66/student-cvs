@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CV>
+	<name> Florence Cheng </name>
+	
+	<dob> 29/04/1993 </dob>
+	
+	<jobs>
+		<job>
+			<role>Web Designer</role>
+			<company>Web Factory </company>
+			<description>Working in a small team, designing websites for other colleagues to develop</description>
+		</job>
+		
+		<job> 
+			<role>Customer Service</role>
+			<company>Sammy's Kitchen</company>
+			<description>Take customers orders and handle cash</description>
+		</job>
+		
+		<job>
+			<role>Promoter</role>
+			<company>Carnage Liverpool</company>
+			<description>Promote Carnage and handle cash</description>
+		</job>
+	</jobs>
+	
+	<education>
+		<school>Kingsmead Technology College</school>
+		<year>2004-2009</year>
+		
+		<school>BKN Sixth Form</school>
+		<year>2009-2011</year>
+	</education>
+</CV>

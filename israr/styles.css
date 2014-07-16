@@ -1,0 +1,72 @@
+html {
+	background-color: yellow;
+}
+
+h2 {
+	color: yellow;
+	background-color: #a1a1a1;
+	font-size: 16;
+	font-style: italic;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	width:300px;
+}
+
+#personal {
+	color: blue;
+	text-align: left;
+}
+
+h3 {
+	color: blue;
+}
+
+h4 {
+	color: navy;
+}
+
+body >header {
+	color:red;
+}
+
+section li {
+	color: red;
+	font-weight: bold;
+}
+
+
+
+#WorkExperience {
+	margin-top: 80px;
+}
+
+#intro {
+	margin-top: 80px;
+}
+
+nav .link {
+    width: 20%;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+	float: left;
+	list-style: none;
+}
+
+table {
+	color: red;
+	font-weight: bold;
+}
+
+#course {
+	color: navy;
+}
+
+#module {
+	margin-top: 30px;
+}

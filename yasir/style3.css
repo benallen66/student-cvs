@@ -1,0 +1,72 @@
+body {
+	font-family: georgia;
+}
+
+header,
+footer {
+    min-height: 25px;
+}
+
+header {
+	text-align: center;
+}
+
+h1,
+h3,
+h6 {
+	display: inline;
+}
+
+h1.fn {
+	font-size: 30px;
+}
+
+h1.tel {
+	font-size: 20px;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: black black LightGray;
+}
+
+h6{
+	font-weight: normal;
+}
+
+thead,
+tfoot {
+display: none;
+}
+
+footer {
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: black black LightGray;
+	text-align: right;
+}
+
+#education, 
+#employment {
+	border-collapse: collapse;
+}
+
+.dates {
+	width: 15%;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	text-align: right;
+	margin-right: -2px;
+	min-width: 150px;
+}

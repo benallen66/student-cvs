@@ -1,0 +1,126 @@
+#wrapper {
+    width:70%;
+    max-width:940px;
+    margin:0 auto;
+    min-width: 320px;
+    background-color: #FFFFFF;
+    padding: 5px 30px;
+    border: 1px solid #EEEEEE;
+    border-radius: 50px;
+}
+
+body {
+    background-color: #E9FBF7;
+}
+
+nav {
+   line-height: 30px;
+   font-family: sans-serif;
+}
+
+nav ul {
+   list-style: none;
+   display:inline;
+}
+
+nav ul a {
+   float:left;
+   width: 33%;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 15px 0px;
+   border-top: 1px solid #EEEEEE;
+   border-bottom: 1px solid #EEEEEE;
+   color: #FF1493;
+}
+
+nav ul li a:hover{
+   background-color: #FF1493;
+   color: #FFFFFF;
+} 
+
+h1 {
+    font-family:sans-serif;
+    font-size:50px;
+    text-align: center;
+    color: #FF1493;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#personal {
+    text-align: center;
+    font-family:sans-serif;    
+}
+
+.dob {
+    padding: 15px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.border{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+th {
+    text-align: left;
+    color: #20D4B1;
+    font-size:18px;
+    font-family: sans-serif;
+}
+
+#education table {
+    width: 100%;
+    font-family: sans-serif;
+    padding-bottom:20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#work {
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.highlight {
+    color: #20D4B1;
+}
+
+footer {
+    color: #FF1493;
+    font-family: sans-serif;
+    font-size: 12px; 
+}
+
+ul li {
+    font-size: 12px;
+}
+
+form {
+    color: #FF1493;
+    font-family:sans-serif;
+}
+
+#name, #email, #addressee, #submit {
+    margin-bottom: 20px;
+}
+
+
+img.projectimage {
+    width:100%;
+}
+
+img#avatar {
+    width:100%;
+    max-width:600px;
+    margin: 0 auto;
+    display:block;
+}

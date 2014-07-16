@@ -1,0 +1,127 @@
+#wrapper {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    min-width: 150px;
+}
+
+#information {
+    border-bottom: #000;
+    text-align: center;
+    padding: 10px
+}
+
+nav {
+    background-color: rgb(229, 238, 242);
+    
+    border: none;
+    border: 10px;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 1em;
+    font-weight: bold;
+    min-width: 40em;
+    text-align: center;
+    
+
+}
+
+nav ul{
+    background:rgba(222, 219, 222, 0.81);
+    height:55px;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+    padding-right: 0px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+      
+}
+
+
+
+nav li a{
+    color:#000;
+    display:block;
+    
+    line-height:50px;
+    margin-left:5px;
+    
+    padding:0px 1em;
+    text-align:center;
+    align-content: center;
+    
+        
+}
+
+body {
+    background-color: rgb(229, 238, 242);
+    background-image: url('mooning/mooning_@2X.png');
+   
+}
+#Education>h2 {
+    width:800px;
+    font-family: sans-serif;
+    color: #aa5d5d;
+    font-style:normal;
+}
+#Education {
+    background-color: #fff;
+}
+#Education td {
+    width: 800px;
+    font-style: italic
+    font-family: cursive;
+    color: #000;
+    position:relative;
+    table-layout: fixed;    
+    padding: 10px;
+
+}
+
+#Employment > border: 
+    width: 700px;
+    font-style: italic;
+    color: #fff;
+
+}
+
+th {
+    text-align:center;
+    
+}
+body {
+    background-color: #efefef;
+    font-family:sans-serif
+    
+}
+
+#name {
+    color:#481818;
+    font-style:oblique;
+    font-size: 60px;
+    font-weight: bold;
+}
+        
+#Education th {
+    font-style: italic;
+    color: #fff;
+    position: relative;
+   
+}
+#Employment th {
+    color: #fff;
+    font-style: italic;
+}
+
+#contact {
+    align-content: space-around:
+}
