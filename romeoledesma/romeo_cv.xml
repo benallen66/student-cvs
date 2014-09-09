@@ -1,4 +1,4 @@
-<xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <cv xml:lang="en-GB">
   <fname>Romeo</fname>
   <sname>Ledesma</sname>
@@ -10,7 +10,7 @@
   <education>
     <university>
       <uname>University of Greenwich</uname>
-      <udegree>BEng Software Engineering</degree>
+      <udegree>BEng Software Engineering</udegree>
       <uyears>
         <uyearfrom>2011</uyearfrom>
         <uyearto>2014</uyearto>
@@ -38,7 +38,7 @@
       <wdates>
         <month_from>February</month_from>
         <month_to>August</month_to>
-        <year_from>2013</year_to>
+        <year_from>2013</year_from>
         <year_to>2013</year_to>
       </wdates>
       <wdescription>I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver the best customer service that we could possibly offer.</wdescription>   
@@ -48,7 +48,6 @@
     <language>
       <lid>1</lid>
       <ldescription>English</ldescription>
-      </lid>
     </language>
     <language>
       <lid>2</lid>
@@ -57,7 +56,6 @@
     <language>
       <lid>3</lid>
       <ldescription>Cebuano</ldescription>
-      </lid>
     </language>
   </languages_spoken>
 </cv>
