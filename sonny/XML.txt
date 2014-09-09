@@ -1,0 +1,20 @@
+<PersonalDetails>
+	<Title>Mr</Title>
+	<FirstName>Sonny</FirstName>
+	<Surname>Gollen</Surname>
+</PersonalDetails>
+
+<PreviousJobs>
+	<PreviousJob>
+		<Company>WDF</Company>
+		<Title>Sales Assistant</Title>
+	</PreviousJob>
+	<PreviousJob>
+		<Company>WDF</Company>
+		<Title>Sales Assistant</Title>
+	</PreviousJob>
+	<PreviousJob>
+		<Company>WDF</Company>
+		<Title>Sales Assistant</Title>
+	</PreviousJob>
+</PreviousJobs>
