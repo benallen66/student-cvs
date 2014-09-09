@@ -1,0 +1,63 @@
+<xml version="1.0" encoding="UTF-8" ?>
+<cv xml:lang="en-GB">
+  <fname>Romeo</fname>
+  <sname>Ledesma</sname>
+  <occupation>Developer in Test Trainee</occupation>
+  <workplace>Testing Circle</workplace>
+  <summary>I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical skills in Agile development particularly in automation testing using Watir, Selenium and RSpec.
+  My personal goal is to realize the vision of the company that I am currently working in which is to provide high-caliber software testing support in whichever company I'll be working for. As a trainee, I am expected to become a highly skilled ISEB ISTQB accredited software tester which will provide me with the software testing foundations that I plan to develop further later in my career.
+  </summary>
+  <education>
+    <university>
+      <uname>University of Greenwich</uname>
+      <udegree>BEng Software Engineering</degree>
+      <uyears>
+        <uyearfrom>2011</uyearfrom>
+        <uyearto>2014</uyearto>
+      </uyears>
+      <dissertation>
+        <dname>The Benefits of Destination Dispatch Algorithms</dname>
+        <dsummary>This was a dissertation that I did during my final year in university. I developed a GUI-based Java application that simulates and demonstrates performance differences between the SCAN algorithm and the Destination Dispatch algorithm when used in an elevator system. Thread programming is deeply integrated into the application and it also displays simulation statistics through line graphs generated using an open-source third-party Java library called JFreeChart.</dsummary>
+      </dissertation>
+    </university>
+    <college>
+      <cname>NESCOT College</cname>
+      <ccourse>BTEC Level 3 IT Practitioners National Diploma (Software Development)</ccourse>
+      <grade>DDM</grade>
+    </college>
+  </education>
+  <work_history>
+    <work>
+      <wid>1</wid>
+      <wname>Nascot Arms Thai Cuisine</wname>
+      <waddress>
+        <wtown>Watford</wtown>
+        <wcounty>Hertfordshire</wcounty>
+      </waddress>
+      <wposition>Waiter</wposition>
+      <wdates>
+        <month_from>February</month_from>
+        <month_to>August</month_to>
+        <year_from>2013</year_to>
+        <year_to>2013</year_to>
+      </wdates>
+      <wdescription>I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver the best customer service that we could possibly offer.</wdescription>   
+    </work>
+  </work_history>
+  <languages_spoken>
+    <language>
+      <lid>1</lid>
+      <ldescription>English</ldescription>
+      </lid>
+    </language>
+    <language>
+      <lid>2</lid>
+      <ldescription>Tagalog</ldescription>
+    </language>
+    <language>
+      <lid>3</lid>
+      <ldescription>Cebuano</ldescription>
+      </lid>
+    </language>
+  </languages_spoken>
+</cv>
