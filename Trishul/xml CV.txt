@@ -1,0 +1,57 @@
+<personaldetails>
+	<title>Trishul</title>
+	<address>75 Brighton Road, Watford, Hertfordshire, WD24 5HN</address>
+	<phone>07854015007</phone>
+	<email>trishulgohil@live.co.uk</email>
+	<website>www.trishulgohil.com</website>
+</personaldetails>
+
+<jobs>
+	
+	<cex>
+		<jobtitle>Work Experience</jobtitle>
+		<job title>C.E.X. – Warehouse Assistant</job title>			
+		<date>November 2013 – August 2014</date>
+		<body>I worked with the WeSell department to deal with orders returned to CEX by customers. I previously worked for WeBuy as a product tester.</body>
+	</cex>
+	
+	<vmc>
+		<jobtitle>VMC Game Labs – Compliance Tester</jobtitle)
+		<date>July 2013 – October 2013</date>
+		<body>At VMC I was following test cases to test both current and upcoming video games for compliance.</body>
+	</vmc>	
+		
+	<vgu>
+		<jobtitle>Video Games Uncovered (VGU)</jobtitle>
+		<date>December 2012 – October 2013</date>
+		<body>Working at VGU consisted of writing various articles ranging from everyday gaming news to theoretical features. Various events were also attended as a member of the press.</vgu>
+	</vgu>
+		
+	
+</jobs>
+
+<education>
+
+	<university>
+		<qualification>First Class Honours</qualification>
+		<name>Staffordshire University</name>
+		<date>2010-2013</date>
+		<body>BODY OF TEXT GOES HERE</body>
+	</university>
+
+	<college>
+		<qualification>PASS</qualification>
+		<name>West Herts College</name>
+		<date>2009-2010</date>
+		<body>BODY OF TEXT GOES HERE</body>
+	</college>
+
+	<school>
+		<qualification>GCSE A-C</qualification>
+		<name>Westfield Community Technology College</name>
+		<date>2002-2009</date>
+		<body>BODY OF TEXT GOES HERE</body>
+	</school>
+
+</education>
+
