@@ -1,0 +1,33 @@
+<person name="Aaron",dob="21/07/1991",number="07463221292">
+	<education>
+		<school="High School">
+			<subject> English, Science, Maths </subject>
+			<grades> A, B, C </grades>
+		</school>
+		<school="College">
+			<subject> Computing </subject>
+			<grades> Pass </grades>
+		</school>
+	</education>
+
+	<jobs>
+		<jobOne>
+			<jobtitle> Trainee </jobtitle>
+			<company> Testing Circle </company>
+			<dateStarted>26-8-2014 </dateStarted>
+			<dateFinished>Something </dateFinished>
+		</jobOne>
+		<jobTwo>
+			<jobtitle> Weather Man </jobtitle>
+			<company> BBC </company>
+			<dateStarted>26-8-2012 </dateStarted>
+			<dateFinished>27-9-2012 </dateFinished>			
+		<jobThree>
+			<jobtitle> Nature Dev </jobtitle>
+			<company> A Zoo </company>
+			<dateStarted>26-8-2011 </dateStarted>
+			<dateFinished>27-9-2012 </dateFinished>
+		</jobThree>
+	</jobs>
+
+</person>
