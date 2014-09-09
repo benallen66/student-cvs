@@ -1,0 +1,68 @@
+<PersonalDetails>
+	<name> Abi Oloyede </name>
+	<age> 21 </age>
+	<address> 34 Woodlouse Road </address>
+</PersonalDetails> 
+
+<JobHistory>
+
+<job>
+	<jobtitle> Trainee </jobtitle>
+	<employer> Testing Circle </employer>
+	<period>
+		<from>	
+			<date>
+			<month>August</month>	
+			<year>2014</year></date>
+		</from>
+			<to><date>
+			<month>November</month>
+			<year>2014</year></date></to>
+	 
+</job>
+
+<job>
+	<jobtitle> Retail Assistant </jobtitle>
+	<employer> Primark </employer>
+	<period>
+		<from>
+			<date>
+			<month>July</month>
+			<year>2013</year></date>
+		</from>
+			<to><date>
+			<month>January</month>
+			<year>2014</year></date></to>
+	  
+</job>
+
+<job> 
+	<jobtitle> Olympics Volunteer </jobtitle>
+	<employer> Olympics </employer>
+	<period>
+		<from>
+			<date>
+			<month>July</month>
+			<year>2012</year>
+			</date>
+		</from>
+			<to><date>
+			<month>September</month>
+			<year>2012</year></date></to>
+	  
+</job>
+</JobHistory>
+
+<Education>
+
+<SchoolName>
+
+	<University> Hertfordshire Uni </University>
+	<Course> Computer Science Bsc </Course>
+	<Grade> 2:1 <Grade>
+	
+</SchoolName>
+
+</Education>
+
+	  
