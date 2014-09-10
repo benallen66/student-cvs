@@ -1,0 +1,10 @@
+body {
+    align-self: center;
+    background-color: red;
+}
+
+.details {
+    color: gray;
+    font-size: small;
+    font-style: italic;
+}
