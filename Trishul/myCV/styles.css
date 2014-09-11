@@ -1,25 +1,54 @@
-<!--{
-    color: gold;
-    background-color: #a1a;
-    font-size: 20px;
-    
- }-->
-
 * {
-    
     color: white;
     box-sizing: border-box;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+body {
+        background-color: black;
+        font-family: monospace;
+        text-align: center;
+        padding: 5%;
+        clear: both;
+    }
+
+.all {
+    border: 2%;
+    background-color: #0066CC;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    
+}
+
+ 
+    .Trishul {
+        
+        float: left;
+        width: 60%;
+        font-size: 50px;
+    }
+
+    .details {
+    
+        float: left;
+        width: 100;
+        
+    }
+
 #Education {
-    background-color: skyblue;
+    background-color: #0066CC;
     float: left;
     width: 50%;
     padding: 2%;
 }
 
+nav {
+   font-size: 20px; 
+}
+
 #Jobs {
-    background-color: Purple;
+    background-color: #0066CC;
    
     float: left;
     width: 50%;
@@ -36,89 +65,30 @@ a {
 h1 {
     font-size: 60px;
     -webkit-text-stroke: 3px black;
-    text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    text-shadow: 3px 3px 0 #000,-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 
 h2 {
-    text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h3{
-    text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
-
-
-body {
-        background-color: #ff6600;
-        font-family: monospace;
-        text-align: center;       
-    }
 
 
 ul {
     list-style-type: none;
 }
 
-@media screen and (min-width: 250px) {
-
-    #box1 {
-            float: left;
-           width: 100;
-            background-color: grey;
-    }
-
-    #box2 {
-            float: left;
-            
-            background-color: green;
-
-    }
-    
-    #box3 {
-            float: left;
-            
-            background-color: green;
-
-    }
-
 
 @media screen and (min-width: 500px) {
 
-    #box1 {
+    #box {
             float: left;
             width: 50%;
             background-color: grey;
-    }
-
-    #box2 {
-            float: left;
-            width: 50%;
-            background-color: green;
-
-    }
-    
-    #box3 {
-            float: left;
-         
-            background-color: green;
-
     }
 
 @media screen and (min-width: 800px) {
@@ -128,20 +98,7 @@ ul {
             width: 30%;
             background-color: grey;
     }
-
-    #box2 {
-            float: left;
-            width: 30%;
-            background-color: green;
-
-    }
-    
-    #box3 {
-            float: left;
-            width: 40%;
-            background-color: green;
-
-    }
 }
+    
     
 

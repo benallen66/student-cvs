@@ -2,22 +2,39 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="stylesheet.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<!-- Title of the page, creates the tab title-->
 		<title> Jane's Contact Form</title>
 	</head>
-	
+	<div class="iconcontainer">
+					<div class="homeicon">
+						<a href="index.html"><img src="icons/home.png" alt="Home Icon" height="64" width="64"></a>
+					</div>
+					<div class="phoneicon">
+						<a href="tel:07599709983"><img src="icons/phone.png" alt="Phone Icon" height="64" width="64" /></a>
+					</div>
+					<div class="emailicon">
+						<a href="contact.html"><img src="icons/mail.png" alt="Email Icon" height="64" width="64" /></a>
+					</div>
+					<div class="giticon">
+						<a href="https://github.com/JaneLast" target="_blank"><img src="icons/github.png" alt="GitHub Icon" height="64" width="64" /></a>
+					</div>
+			</div>
 <body>
-<form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform">
-<label for="name">Name:</label>	
-<input type="text" name="name" id="name" />	
-<label for="email">Email:</label>
-<input type="email" name="email" id="email" />
-<input type="hidden" name="addressee" id="addressee" value="Aaron" />
-<label for="message">Message:</label>
-<textarea name="message" id="message" rows="4" cols="50">Enter your message</textarea>
-<input type="submit" id="submit" />
-</form>
-	<p>Red</p>
-		
+	<div class ="container">
+		<div ="formcontainer">
+			<h1>Contact Form</h1>
+			<form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform">
+			<label for="name">Name:</label>	
+			<input type="text" name="name" id="name" />	<br />
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" /><br />
+			<input type="hidden" name="addressee" id="addressee" value="Aaron" />
+			<label for="message">Message:</label><br />
+			<textarea name="message" id="message" rows="4" cols="50">Enter your message</textarea><br />
+			<input type="submit" id="submit" />
+			</form>
+		</div>
+	</div>		
 </body>
 </html>
