@@ -1,0 +1,44 @@
+.div1 span {
+		background-color: green;
+		border-style: outset;
+		color: white;
+		height: 50px;
+		width: 50%;
+		display: inline-block;
+		margin: 100px;
+		box-sizing: border-box;
+		float: left;
+	}
+	
+h3 {
+      position: fixed;
+	  bottom: 50px;
+	  top:
+    }
+
+
+.div2  span {
+		background-color: blue;
+		color: purple;
+		height: 100px;
+		width: 120px;
+		display: inline-block;
+		margin: 50px;
+		border-width: 90px;
+		border-style: dashed;
+		float: center;
+	} 
+.div3  span {
+		background-color: blue;
+		color: black;
+		height: 100px;
+		width: 200px;
+		display: inline-block;
+		margin-bottom: 100px;
+		border-width: 90px;
+		border-style: dashed;
+		float: right;
+		
+		
+	} 
+	
