@@ -5,10 +5,31 @@ ul{
 
 .Header {
 	font-size: 100px;
+
 }
 
-p{
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+li{
+	border-radius: 60%;
+	background-color: blue;
+	width: 10%;
+}
+
+/*p{
 	color:red;
 	background-color: #a1a1a1;
 	font-size:13px;
-}
+
+} */
+
+/*span {
+	background-color: #a1a1a1;
+	height: 200px;
+	padding: 50px;
+	display: inline-block;
+}*/
+
