@@ -1,7 +1,44 @@
-<html>
-	<head>
-		<style>
-			<link rel="stylesheet" href="styles.cv in html">
-		</style>
+ 	p {
+		color: yellow;
+		background-color: #000000;
+		font-size: 14px;
+		font-family: "serif;
+		display: block;
+		
+		
+	}	
+div {
+		color: red;
+		background-color: #000000;
+		font-size: 14px;
+		font-family: "serif;
+		display: inline;
+	}
 
-	</head>
+     .CV {
+		background-color: white;
+	}
+	
+	.CV span {
+		background-color: blue;
+		height: 100px;
+		width: 200px;
+	}
+		
+		
+	
+	.foo {
+		background-color: purple;
+	}
+	
+	.foo span {
+		background-color: blue;
+		height: 100px;
+		width: 200px;
+		display: inline-block;
+		margin-bottom: 100px;
+		
+	}
+	
+	
+	
