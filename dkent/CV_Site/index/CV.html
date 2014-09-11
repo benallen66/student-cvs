@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <title>David's CV</title>
+        <link rel="stylesheet" href="cvstyle.css">
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Top</li>
+                    <li>Personal Details</li>
+                    <li>Work History</li>
+                    <li>Education</li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="personaldetails">
+            <div id="hcard-Christopher-John-Coyier" class="vcard">
+                <span class="given-name">David</span>
+                <span class="additional-name">Jonothan</span>
+                <span class="family-name">Kent</span>
+            <div class="org">Software Developer in Test Trainee</div>
+            <a class="email" href="mailto:djkvesper@outlook.com">djkvesper@outlook.com</a>
+            <div class="adr">
+                <div class="street-address">25 Tudor Way</div>
+                <span class="locality">Uxbridge, <br> Hillingdon,</span><br>
+                <span class="region">Middlesex,</span><br>
+                <span class="postal-code">UB10 9AA.</span><br>
+                <span class="country-name">United Kingdom</span>
+            </div>
+                <div class="tel">07927-148243</div>
+            </div>
+        </section>
+        
+        <section class="workexperience">
+            <div class="wecontent">
+                <h3> Feb 2014 - July 2014</h3>
+                <p>TNT Express<br>
+                <em>Delivery Operative</em>
+                </p>
+                <ul>
+                    <li>Responsible for the sorting and delivery of TNT post within the South Harrow area.</li>
+                    <li>It was important to come under the target time for   delivery. Working with the team allowed for better planning and execution of delivery routes. Increasing the efficiency, and therefore decrease the time to complete the work. </li>
+                </ul>
+            </div>
+            <div class="wecontent">
+                <h3> Nov 2013 - Nov 2013</h3>
+                <p>Mitie<br>
+                <em>Facility Supervisor</em>
+                </p>
+                <ul>
+                    <li>Responsible for a team of 10+ in the operational running of a Bus Depot.</li>
+                    <li>This included allocating resources such as people to do the job, tasks for the day, updating reports/pay and supervising. Making sure that the jobs were done to company standards, taking action against those who don't.</li>
+                </ul>
+            </div>
+            <div class="wecontent">
+                <h3> Nov 2013 - Nov 2013</h3>
+                <p>Nexen<br>
+                <em>Data Migration Technician</em>
+                </p>
+                <ul>
+                    <li>Responsible for transferring crucial geographical data from an outdated file system into a new file system.</li>
+                    <li>Re-organized the transfer to form a more efficient approach that minimized downtime. Excelled beating time and data volume targets by 30%. </li>
+                </ul>
+            </div>
+            
+        </section>
+        
+        <section id="contactform">
+            <form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform/test"> <!--(POST http://lacedeamon.spartaglobal.com/todos)-->
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name"/> <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" tabindex="10"> <br>
+                <input type="hidden" name="addressee" id="addressee" value="David">
+                <label for="textarea">Message:</label>
+                <textarea cols="40" rows="8" name="message" id="message" tabindex="6"></textarea>
+                <input type="submit" value="Save" />
+            </form>
+    </section>
+        
+        <footer>
+            <p>Copyright 2014 David Kent</p>
+        </footer>
+        
+    </body>
+</html>
