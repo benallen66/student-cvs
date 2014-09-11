@@ -1,16 +1,25 @@
+html{
+	width: 100%;
+	font-family:Verdana;
+ 	font-size: 15px;
+}
 body {
-	background-color: #a1a1a1
+	background-color: #C2FFAD;
+	width: 100%;
 }
 
 .container{
-	background-color: white;
+	box-sizing: border-box; 
+	border: 5px solid #33801A;
+	border-radius: 25px;
 	margin: 0 auto;
- 	padding-left: 30px;
- 	padding-right: 30px;
- 	width: 1100px;
- 	font-family:Verdana;
- 	font-size: 15px;
+	background-color: white;
+	width:70%;
  	
+ 	
+}
+.pagecontainer{
+	padding: 10px;
 }
 .nav{
 	display: block;
@@ -29,3 +38,14 @@ h1{
 	text-align: center;
 	font-size: 25px;
 }
+
+.footer{
+	
+	background-color: #F5F5F0;
+	box-sizing: border-box; 
+	border-top: 2px solid #33801A;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	margin: 0 auto;
+	padding: 5px;
+ }
