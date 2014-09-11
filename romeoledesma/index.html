@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Romeo Ledesma's CV</title>
+    <link ref="stylesheet" href="styles.css">
 </head>
-	<body align="center">
+	<body>
 		<header role="banner">
 			<img src="https://media.licdn.com/media/p/8/005/083/09f/2caf477.jpg" alt="Personal Picture" width="200" height="200"/>
 			<h1>CV Profile</h1>
@@ -34,9 +35,9 @@
             
 			<br>
             
-			<font size=2, color="grey">Previous</font> Nascot Arms Thai Cuisine
+            <span class="details">Previous</span> Nascot Arms Thai Cuisine
             <br>
-			<font size=2, color="grey">Education</font> University of Greenwich
+			<span class="mini_details">Education</span> University of Greenwich
             
 		</div>
 		
@@ -45,10 +46,10 @@
 		<section id="Summary">
 			<h1>Summary</h1>
 			<p>
-				I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical skills in Agile development particularly in automation testing using Watir, Selenium and RSpec.
+				I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in                 the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical                       skills in Agile development particularly in automation testing using Watir, Selenium and RSpec.
 			</p>
 			<p>
-				My personal goal is to realize the vision of the company that I am currently working in which is to provide high-caliber software testing support in whichever company I'll be working for. As a trainee, I am expected to become a highly skilled ISEB ISTQB accredited software tester which will provide me with the software testing foundations that I plan to develop further later in my career.
+				My personal goal is to realize the vision of the company that I am currently working in which is to provide high-caliber software testing                       support in whichever company I'll be working for. As a trainee, I am expected to become a highly skilled ISEB ISTQB accredited software tester                   which will provide me with the software testing foundations that I plan to develop further later in my career.
 			</p>
 		</section>
 		<!-- End of Summary Section -->
@@ -70,7 +71,7 @@
 					<font size=3, color="grey">August 2014 - Present(2 months) | Richmond, London</font><br>
 				</p>
 				<p>
-					I will be undertaking an intensive 12-week Development in Test training to help me become an ISEB ISTQB accredited software tester which will allow me to gain professional and credible skills in the field of manual and automated software testing.
+					I will be undertaking an intensive 12-week Development in Test training to help me become an ISEB ISTQB accredited software tester which                         will allow me to gain professional and credible skills in the field of manual and automated software testing.
 				</p>
 			</section> 			 <!--  End of Work 1 Section  -->
 			<hr width="50%">
@@ -84,7 +85,7 @@
 					<font size=3, color="grey">February 2013 - August 2013(7 Months) | Watford, United Kingdom</font><br>
 				</p>
 				<p>
-					I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver the best customer service that we could possibly offer.
+					I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling                       take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver                       the best customer service that we could possibly offer.
 				</p>
 			</section> 			 <!--  End of Work 2 Section  -->
 		
@@ -99,7 +100,7 @@
 			<p>
 				<strong><font size=4>The Benefits of Destination Dispatch Algorithms</font></strong><br>
 				<font size=3, color="grey">March 2014 | University of Greenwich</font><br><br>
-				This was a dissertation that I did during my final year in university. I developed a GUI-based Java application that simulates and demonstrates performance differences between the SCAN algorithm and the Destination Dispatch algorithm when used in an elevator system. Thread programming is deeply integrated into the application and it also displays simulation statistics through line graphs generated using an open-source third-party Java library called JFreeChart.
+				This was a dissertation that I did during my final year in university. I developed a GUI-based Java application that simulates and demonstrates                 performance differences between the SCAN algorithm and the Destination Dispatch algorithm when used in an elevator system. Thread programming is                 deeply integrated into the application and it also displays simulation statistics through line graphs generated using an open-source third-party                 Java library called JFreeChart.
 			</p>
 			<hr>
 		</section>
@@ -150,5 +151,26 @@
 			</p>
 		</section>
 		<!--  End of Languages Spoken Section  -->
+        <hr>
+        <section id="Contact Me">
+            <h1>Contact Me</h1>
+            <hr>
+            <p>
+                <form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform/">
+                    <label for="title">Name</label> <!-- Name of the sender --><br>
+                    <input type="text" name="name" id="name"> <!-- Input for the sender's name --><br><br>
+                    
+                    <label for="title">Enter your email address</label> <!-- Label for the email field --><br>
+                    <input type="email" name="email" id="email"> <!-- Input field for the sender's email -->
+                    
+                    <input type="hidden" name="addressee" id="address" value="Romeo Ledesma"> <!-- The addressee would always be me, Romeo! :) --><br><br>
+                    
+                    <label for="title">Message</label> <!-- Label for the message field --><br>
+                    <textarea rows="4" cols="50" name="message" id="message"></textarea> <!-- Input field for the message --><br><br>
+                    
+                    <input type="submit" value="Send Message"> <!-- button to send the message through -->
+                </form>
+            </p>
+        </section>
 	</body>
 </html	>
