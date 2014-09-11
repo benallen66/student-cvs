@@ -23,9 +23,15 @@ body {
 }
 .nav{
 	display: block;
+	background-color: #F5F5F0;
+	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 1px; 
-	text-align: center;
+	padding: 10px; 
+	text-align: center;	 
+	border-bottom: 2px solid #33801A;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	
 }
 
 h1{
@@ -34,11 +40,35 @@ h1{
 }
 .iconcontainer{
 	float: right;
-}
-.iconcontainer{
 	position:fixed;
 	right: 50px; 
 	top: 50px;
+}
+.BacktoTop{
+	float: right;
+	position:fixed;
+	right: 50px; 
+	bottom: 10px;
+	margin: 10px;
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4C4C33;
+    text-decoration: none;
+}
+
+a:hover {
+    color: 	#19A347;
+    text-decoration: none;
+}
+
+a:active {
+    color: #C2FFAD;
+    text-decoration: none;
 }
 .phoneicon, .emailicon, .homeicon, .giticon{
 	background-color: #FFFFFF;
@@ -61,4 +91,5 @@ h1{
 	border-bottom-right-radius: 25px;
 	margin: 0 auto;
 	padding: 5px;
+	text-align: center;	
  }
