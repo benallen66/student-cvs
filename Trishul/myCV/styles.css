@@ -5,10 +5,27 @@
     
  }-->
 
-html {
+* {
     
     color: white;
+    box-sizing: border-box;
 }
+
+#Education {
+    background-color: skyblue;
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+#Jobs {
+    background-color: Purple;
+   
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
 
 
 a {   
@@ -27,11 +44,6 @@ h1 {
        1px 1px 0 #000;
 }
 
- #Education div {
-        background-color: blue;
-    
-
-}
 
 h2 {
     text-shadow:
