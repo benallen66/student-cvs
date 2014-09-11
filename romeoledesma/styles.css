@@ -1,10 +1,82 @@
-body {
-    align-self: center;
-    background-color: red;
+* {
+    box-sizing: border-box;
 }
 
-.details {
+body {
+    text-align: center;
+}
+
+section {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mini_details {
     color: gray;
     font-size: small;
     font-style: italic;
+}
+
+section.summary {
+    float: left;
+    width: 100%;
+}
+
+section.contact {
+    clear: both;
+}
+
+@media screen and (min-width: 0px) {
+
+    section.education {
+        float: left;
+        width: 100%;
+        background: brown;
+    }
+
+    section.work_xp {
+        float: left;
+        width: 100%;
+        background: teal;
+    }
+
+    section.projects {
+        float: left;
+        width: 100%;
+        background: grey;
+    }
+
+    section.languages {
+        float: left;
+        width: 100%;
+        background: yellow;
+    }
+
+@media screen and (min-width: 800px) {
+
+    section.education {
+        float: left;
+        width: 50%;
+        background: brown;
+    }
+
+    section.work_xp {
+        float: left;
+        width: 50%;
+        background: teal;
+    }
+
+    section.projects {
+        float: left;
+        width: 50%;
+        background: grey;
+        margin-top: -85px;
+    }
+
+    section.languages {
+        float: left;
+        width: 50%;
+        background: yellow;
+        margin-top: -0.5px;
+    }
 }

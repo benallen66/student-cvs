@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Romeo Ledesma's CV</title>
-    <link ref="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 	<body>
 		<header role="banner">
@@ -35,16 +35,17 @@
             
 			<br>
             
-            <span class="details">Previous</span> Nascot Arms Thai Cuisine
+            <span class="mini_details">Previous</span> Nascot Arms Thai Cuisine
             <br>
 			<span class="mini_details">Education</span> University of Greenwich
             
 		</div>
 		
-		<hr>
 		<!-- Start of Summary section -->
-		<section id="Summary">
-			<h1>Summary</h1>
+		<section class="summary">
+			<hr>
+            <h1>Summary</h1>
+            <hr>
 			<p>
 				I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in                 the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical                       skills in Agile development particularly in automation testing using Watir, Selenium and RSpec.
 			</p>
@@ -53,62 +54,11 @@
 			</p>
 		</section>
 		<!-- End of Summary Section -->
-		<hr>
-		<h1>Background</h1>
-		<hr>
 		
-		<!-- Start of Work Experience Section -->
-		<section id="Work_Experience">
-			<h1>Experience</h1>
-			<section id="Work1"> <!-- Start of Work 1 Section -->
-				<p>
-					<a href="http://www.testingcircle.com/" target="_blank">
-						<img class="logo" src="tc_logo.jpg" alt="Testing Circle logo" width="130" height="70" />
-					</a>
-					<br>
-					<strong><font size=4>Developer in Test Trainee</font></strong><br>
-					<font size=4>Testing Circle Ltd</font><br>
-					<font size=3, color="grey">August 2014 - Present(2 months) | Richmond, London</font><br>
-				</p>
-				<p>
-					I will be undertaking an intensive 12-week Development in Test training to help me become an ISEB ISTQB accredited software tester which                         will allow me to gain professional and credible skills in the field of manual and automated software testing.
-				</p>
-			</section> 			 <!--  End of Work 1 Section  -->
-			<hr width="50%">
-			<section id="Work2"> <!-- Start of Work 2 Section -->
-				<p>
-					<a href="http://www.nascotarms.co.uk/nascot-food.php" target="_blank">
-						<img class="logo" src="Nascot_logo.jpg" alt="Nascot Arms logo" width="170" height="25" /><br>
-					</a>
-					<strong><font size=4>Waiter</font></strong><br>
-					<font size=4>Nascot Arms Thai Cuisine</font><br>
-					<font size=3, color="grey">February 2013 - August 2013(7 Months) | Watford, United Kingdom</font><br>
-				</p>
-				<p>
-					I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling                       take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver                       the best customer service that we could possibly offer.
-				</p>
-			</section> 			 <!--  End of Work 2 Section  -->
-		
-		<!-- End of Work Experience Section -->
-		</section>
-		<hr>
-		
-		<!-- Start of Projects Section -->
-		<section id="Projects">
-			<h1>Projects</h1>
+        <!-- Start of Education Section -->
+		<section class="education">
 			<hr>
-			<p>
-				<strong><font size=4>The Benefits of Destination Dispatch Algorithms</font></strong><br>
-				<font size=3, color="grey">March 2014 | University of Greenwich</font><br><br>
-				This was a dissertation that I did during my final year in university. I developed a GUI-based Java application that simulates and demonstrates                 performance differences between the SCAN algorithm and the Destination Dispatch algorithm when used in an elevator system. Thread programming is                 deeply integrated into the application and it also displays simulation statistics through line graphs generated using an open-source third-party                 Java library called JFreeChart.
-			</p>
-			<hr>
-		</section>
-		<!--  End of Projects Section  -->
-		
-		<!-- Start of Education Section -->
-		<section id="Education">
-			<h1>Education</h1>
+            <h1>Education</h1>
 			<hr>
 			
 			<!-- Start of University Education Section -->
@@ -138,10 +88,61 @@
 			<!--  End of College Education Section  -->
 		</section>
 		<!-- End of Education Section -->
+        
+		<!-- Start of Work Experience Section -->
+		<section class="work_xp">
+            
+            <hr>
+		    <h1>Work Experience</h1>
+		    <hr>
+            
+			<section id="Work1"> <!-- Start of Work 1 Section -->
+				<p>
+					<a href="http://www.testingcircle.com/" target="_blank">
+						<img class="logo" src="tc_logo.jpg" alt="Testing Circle logo" width="130" height="70" />
+					</a>
+					<br>
+					<strong><font size=4>Developer in Test Trainee</font></strong><br>
+					<font size=4>Testing Circle Ltd</font><br>
+					<font size=3, color="grey">August 2014 - Present(2 months) | Richmond, London</font><br>
+				</p>
+				<p>
+					I will be undertaking an intensive 12-week Development in Test training to help me become an ISEB ISTQB accredited software tester which                         will allow me to gain professional and credible skills in the field of manual and automated software testing.
+				</p>
+			</section> 			 <!--  End of Work 1 Section  -->
+			<hr width="50%">
+			<section id="Work2"> <!-- Start of Work 2 Section -->
+				<p>
+					<a href="http://www.nascotarms.co.uk/nascot-food.php" target="_blank">
+						<img class="logo" src="Nascot_logo.jpg" alt="Nascot Arms logo" width="170" height="25" /><br>
+					</a>
+					<strong><font size=4>Waiter</font></strong><br>
+					<font size=4>Nascot Arms Thai Cuisine</font><br>
+					<font size=3, color="grey">February 2013 - August 2013(7 Months) | Watford, United Kingdom</font><br>
+				</p>
+				<p>
+					I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling                       take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver                       the best customer service that we could possibly offer.
+				</p>
+			</section> 			 <!--  End of Work 2 Section  -->
+		</section>
+		<!-- End of Work Experience Section -->
+		
+		<!-- Start of Projects Section -->
+		<section class="projects">
+            <hr>
+			<h1>Projects</h1>
+			<hr>
+			<p>
+				<strong><font size=4>The Benefits of Destination Dispatch Algorithms</font></strong><br>
+				<font size=3, color="grey">March 2014 | University of Greenwich</font><br><br>
+				This was a dissertation that I did during my final year in university. I developed a GUI-based Java application that simulates and demonstrates                 performance differences between the SCAN algorithm and the Destination Dispatch algorithm when used in an elevator system. Thread programming is                 deeply integrated into the application and it also displays simulation statistics through line graphs generated using an open-source third-party                 Java library called JFreeChart.
+			</p>
+		</section>
+		<!--  End of Projects Section  -->
 		
 		<!-- Start of Languages Spoken Section -->
 		<hr>
-		<section id="Languages_Spoken">
+		<section class="languages">
 			<h1>Languages Spoken</h1>
 			<hr>
 			<p>
@@ -152,7 +153,7 @@
 		</section>
 		<!--  End of Languages Spoken Section  -->
         <hr>
-        <section id="Contact Me">
+        <section class="contact">
             <h1>Contact Me</h1>
             <hr>
             <p>
