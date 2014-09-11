@@ -1,0 +1,90 @@
+<html>
+<style>
+*{
+	box-sizing: border-box;
+}
+.top{
+	background-color: blue;
+	height: 50%;
+	width: 50%;
+	display: block;
+	float: left;
+}
+.bottom {
+	background-color: red;
+	height: 50%;
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+h1 {
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+aside {
+	background-color: purple;
+}
+
+footer{
+	clear: both;
+}
+
+@media screen and (min-width: 200px) {
+	.bottom{
+		float: none;
+	}
+}
+
+
+@media screen and (min-width: 300px) {
+	.bottom{
+		float: left;
+	}
+}
+
+@media screen and (min-width: 500px) {
+
+	h1{
+		text-align: center;
+	}
+	.top {
+		width: 40%;
+		float: left;
+		font-size: 1.3em;
+	}
+	.bottom{
+		width: 40%;
+		float: left;
+		font-size: 1.3em;
+	}
+	aside{
+		width: 20%;
+		float: left;
+		height: 50%;
+	}
+
+}
+</style>
+
+<body>
+<h1>This is a header to test stuff</h1>
+<div class="top">
+Hello
+</div>
+
+<div class="bottom">
+Is it me you're looking for?
+
+</div>
+
+<aside>
+	<p>Test 1</p>
+	<p>Test 2</p>
+	<p>Test 3</p>
+</aside>
+
+<footer></footer>
+</body>
+</html>
