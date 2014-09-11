@@ -5,8 +5,9 @@
 }
 
 body {
-        background-color: black;
-        font-family: monospace;
+        
+        background-color: #8099E6;
+        font-family: sans-serif;
         text-align: center;
         padding: 5%;
         clear: both;
@@ -35,9 +36,12 @@ body {
         width: 100;
         
     }
+#PersonalDetails {
+    text-align: left;
+}
 
 #Education {
-    background-color: #0066CC;
+    
     float: left;
     width: 50%;
     padding: 2%;
@@ -48,7 +52,7 @@ nav {
 }
 
 #Jobs {
-    background-color: #0066CC;
+    
    
     float: left;
     width: 50%;
@@ -100,5 +104,13 @@ ul {
     }
 }
     
+footer {
+    clear: both;
+}
+    
+aside {
+    width: 100%;
+    background-color: black;
+}
     
 
