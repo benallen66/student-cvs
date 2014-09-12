@@ -1,5 +1,5 @@
  	body {
-		background-color: orange;
+		background-color: #60A88E;
 		display: block;
 		}
 		
@@ -7,7 +7,8 @@
 		text-align: center;
 		}
 	h3 {
-		text-align: center;
+		text-align: left;
+		padding: 3px;
 		}
 		
 	li {
@@ -21,6 +22,10 @@
 		font-family: "serif;
 		}
 		
+	.message{
+		text-align: center;
+		} 
+		
 	.skill {
 		color: black;
 		font-size: 14px;
@@ -28,11 +33,10 @@
 		} 
 	
 	.summary {
-		text-align: center;
+		text-align: left;
 		color: black;
 		font-size: 14px;
-		border: ridge;
-		border-color: black; 
+		padding: 2em;
 	}
 	
 	
