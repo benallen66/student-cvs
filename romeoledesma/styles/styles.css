@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+header img {
+    border: 1px solid black;
+    
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;    
+    
+    width: 200px;
+    height: 260px;
+}
+
+.summary {
+    overflow: auto;
+}
+
+body {
+    text-align: center;
+    background: #171710;
+}
+
+.profile {
+    font-size: small;
+}
+
+.education, .work_xp, .skills, .contact {
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 600px;
+}
+
+@media screen and (min-width: 0px) {
+    
+    header {
+        background: yellow;
+        width: 100%;
+        margin: 1 auto; 
+    }
+    
+    .summary {
+        text-align: center;
+        width: 100%;
+        background: teal;
+        margin: 1 auto;
+    }
+    
+    .education {
+        float: left;
+        width: 100%;
+        background: brown;
+    }
+
+    .work_xp {
+        float: left;
+        width: 100%;
+        background: white;
+    }
+
+    .skills {
+        float: left;
+        width: 100%;
+        background: grey;
+    }
+
+    .contact {
+        float: left;
+        width: 100%;
+        background: yellow;
+    }
+
+@media screen and (min-width: 800px) {
+
+    header {
+        width: 60%;
+        margin: 0 auto;
+        background: yellow;
+        padding: 1%;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;    
+    }
+    
+    .summary {
+        width: 60%;
+        height: 200px;
+        background: teal;
+        margin: 0 auto;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%; 
+    }
+    
+    .education {
+        float: left;
+        width: 40%;
+        background: brown;
+        margin: 5%;
+        border-radius: 10%;
+        padding: 1%;
+    }
+
+    .work_xp {
+        float: left;
+        width: 40%;
+        background: white;
+        margin: 5%;
+        border-radius: 10%;
+        padding: 1%;
+    }
+
+    .skills {
+        float: left;
+        width: 40%;
+        background: grey;
+        margin: 5%;
+        border-radius: 10%;
+    }
+
+    .contact {
+        float: left;
+        width: 40%;
+        background: yellow;
+        margin: 5%;
+        border-radius: 10%;
+    }
+}

@@ -1,73 +1,60 @@
-<!doctype html>
 <html>
-<head>
-	<title>Romeo Ledesma's CV</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-	<body>
-		<header role="banner">
-            <div class="header">
-			     <img src="profile_pic.jpg" alt="Personal Picture" />
+    <head>
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Romeo Ledesma</title>
+    </head>
+    
+    <body>
+        <header>
+            <img src="images/profile_pic.jpg" width="150" height="150">
+            <h1>CV Profile</h1>
+            
+            <div class="profile">
+                <span class="fullname">
+                    Romeo Ledesma
+                </span>
+                
+                <span class="title">
+                    Developer in Test Trainee at 
+                </span>
+                
+                <span class="org">
+                    Testing Circle Ltd | Information Technology
+                </span>
+                
+                <span class="org">     <!-- workplace -->
+                    Testing Circle Ltd | Information Technology and Services
+                </span>
+            
+                </font>       <!-- end of font settings for job position and workplace -->
+
+                <address>
+                    telephone: <a href="tel:07789961806">07789 961 806</a> | email: <a href="mailto:rledesma@testingcircle.com">rledesma@testingcircle.com</a>
+                </address>
+
+                <br>
+
+                <span class="mini_details">Previous</span> Nascot Arms Thai Cuisine
+                <br>
+                <span class="mini_details">Education</span> University of Greenwich
             </div>
-			<h1>CV Profile</h1>
         </header>
         
-        <!-- profile section (full name, work and workplace information) -->
-        <div class="profile">
-            
-            <span class="fullname">
-                <strong><font size=5>Romeo Ledesma</font></strong><br>
-            </span>
-            
-            <font size=2> <!-- font size to be used for job position and workplace -->
-                
-            <span class="title">   <!-- job position -->
-                Developer in Test Trainee at
-            </span>
-            
-            <span class="org">     <!-- workplace -->
-                Testing Circle Ltd | Information Technology and Services
-            </span>
-            
-            </font>       <!-- end of font settings for job position and workplace -->
-            
-			<address>
-                telephone: <a href="tel:07789961806">07789 961 806</a> | email: <a href="mailto:rledesma@testingcircle.com">rledesma@testingcircle.com</a>
-			</address>
-            
-			<br>
-            
-            <span class="mini_details">Previous</span> Nascot Arms Thai Cuisine
-            <br>
-			<span class="mini_details">Education</span> University of Greenwich
-            
-		</div>
-		
-		<!-- Start of Summary section -->
-		<section class="summary">
-			<hr>
+        <section class="summary">
             <h1>Summary</h1>
-            <hr>
-			<p>
-				I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in                 the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical                       skills in Agile development particularly in automation testing using Watir, Selenium and RSpec.
-			</p>
-			<p>
-				My personal goal is to realize the vision of the company that I am currently working in which is to provide high-caliber software testing                       support in whichever company I'll be working for. As a trainee, I am expected to become a highly skilled ISEB ISTQB accredited software tester                   which will provide me with the software testing foundations that I plan to develop further later in my career.
-			</p>
-		</section>
-		<!-- End of Summary Section -->
-		
-        <!-- Start of Education Section -->
-		<section class="education">
-			<hr>
-            <h1>EDUCATION</h1>
-			<hr>
-			
+            <p>
+                I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in                 the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical skills                 in Agile development particularly in automation testing using Watir, Selenium and RSpec.
+            </p>
+        </section>
+        
+        <section class="education">
+            <h1>Education</h1>
+            
 			<!-- Start of University Education Section -->
 			<section id="Education_University">
 				<p>
 					<a href="http://www.gre.ac.uk/" target="_blank">
-						<img class="logo" src="Greenwich_logo.jpg" alt="Greenwich University logo"/><br><br>
+						<img class="logo" src="images/Greenwich_logo.jpg" alt="Greenwich University logo"/><br><br>
 					</a>
 					<strong><font size=4>University of Greenwich</font></strong><br>
 					<font size=4>Bachelor of Engineering (BEng), Computer Software Engineering</font><br>
@@ -75,12 +62,14 @@
 				</p>
 			</section>
 			<!--  End of University Education Section  -->
-			<hr width="50%">
+
+            <hr width="50%"> <!-- Just a separator :) -->
+            
 			<!-- Start of College Education Section -->
 			<section id="Education_College">
 				<p>
 					<a href="http://www.nescot.ac.uk/">
-						<img class="logo" src="Nescot_logo.jpg" alt="Nescot College logo" width="180" height="60"/><br><br>
+						<img class="logo" src="images/Nescot_logo.jpg" alt="Nescot College logo" width="180" height="60"/><br><br>
 					</a>
 					<strong><font size=4>NESCOT College</font></strong><br>
 					<font size=4>BTEC Level 3 IT Practitioners National Diploma (Software Development), DDM</font><br>
@@ -88,20 +77,15 @@
 				</p>
 			</section>
 			<!--  End of College Education Section  -->
-		</section>
-		<!-- End of Education Section -->
+        </section>
         
-		<!-- Start of Work Experience Section -->
-		<section class="work_xp">
-            
-            <hr>
+        <section class="work_xp">
 		    <h1>Work Experience</h1>
-		    <hr>
             
 			<section id="Work1"> <!-- Start of Work 1 Section -->
 				<p>
 					<a href="http://www.testingcircle.com/" target="_blank">
-						<img class="logo" src="tc_logo.jpg" alt="Testing Circle logo" width="130" height="70" />
+						<img class="logo" src="images/tc_logo.jpg" alt="Testing Circle logo" width="130" height="70" />
 					</a>
 					<br>
 					<strong><font size=4>Developer in Test Trainee</font></strong><br>
@@ -116,7 +100,7 @@
 			<section id="Work2"> <!-- Start of Work 2 Section -->
 				<p>
 					<a href="http://www.nascotarms.co.uk/nascot-food.php" target="_blank">
-						<img class="logo" src="Nascot_logo.jpg" alt="Nascot Arms logo" width="170" height="25" /><br>
+						<img class="logo" src="images/Nascot_logo.jpg" alt="Nascot Arms logo" width="170" height="25" /><br>
 					</a>
 					<strong><font size=4>Waiter</font></strong><br>
 					<font size=4>Nascot Arms Thai Cuisine</font><br>
@@ -126,38 +110,15 @@
 					I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling                       take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver                       the best customer service that we could possibly offer.
 				</p>
 			</section> 			 <!--  End of Work 2 Section  -->
-		</section>
-		<!-- End of Work Experience Section -->
-		
-		<!-- Start of Projects Section -->
-		<section class="projects">
-            <hr>
-			<h1>Projects</h1>
-			<hr>
-			<p>
-				<strong><font size=4>The Benefits of Destination Dispatch Algorithms</font></strong><br>
-				<font size=3, color="grey">March 2014 | University of Greenwich</font><br><br>
-				This was a dissertation that I did during my final year in university. I developed a GUI-based Java application that simulates and demonstrates                 performance differences between the SCAN algorithm and the Destination Dispatch algorithm when used in an elevator system. Thread programming is                 deeply integrated into the application and it also displays simulation statistics through line graphs generated using an open-source third-party                 Java library called JFreeChart.
-			</p>
-		</section>
-		<!--  End of Projects Section  -->
-		
-		<!-- Start of Languages Spoken Section -->
-		<hr>
-		<section class="languages">
-			<h1>Languages Spoken</h1>
-			<hr>
-			<p>
-				<font size=4>English<br>
-				<font size=4>Filipino<br>
-				<font size=4>Cebuano</font>
-			</p>
-		</section>
-		<!--  End of Languages Spoken Section  -->
-        <hr>
+
+        </section>
+        
+        <section class="skills">
+        
+        </section>
+        
         <section class="contact">
             <h1>Contact Me</h1>
-            <hr>
             <p>
                 <form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform/">
                     <label for="title">Name</label> <!-- Name of the sender --><br>
@@ -175,14 +136,5 @@
                 </form>
             </p>
         </section>
-        
-        <!-- test -->
-        <section class="test">
-            bwahaha
-        </section>
-        
-        <section class="test">
-            bwohoho
-        </section>
-	</body>
-</html	>
+    </body>
+</html>

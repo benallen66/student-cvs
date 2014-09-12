@@ -1,0 +1,3 @@
+http://stackoverflow.com/questions/13629967/css-expand-div-on-hover-without-displacing-other-divs -expand div
+http://tympanus.net/codrops/2011/12/14/item-blur-effect-with-css3-and-jquery/ - blur effect
+http://css-tricks.com/forums/topic/how-to-make-hovering-over-one-div-to-trigger-changes-in-another-div/ -possible fix
