@@ -1,0 +1,116 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+body {
+        
+        background-color: #8099E6;
+        font-family: sans-serif;
+        text-align: center;
+        padding: 5%;
+        clear: both;
+    }
+
+.all {
+    border: 2%;
+    background-color: #0066CC;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    
+}
+
+ 
+    .Trishul {
+        
+        float: left;
+        width: 60%;
+        font-size: 50px;
+    }
+
+    .details {
+    
+        float: left;
+        width: 100;
+        
+    }
+#PersonalDetails {
+    text-align: left;
+}
+
+#Education {
+    
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+nav {
+   font-size: 20px; 
+}
+
+#Jobs {
+    
+   
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+
+
+a {   
+    color: white;   
+}
+
+
+h1 {
+    font-size: 60px;
+    -webkit-text-stroke: 3px black;
+    text-shadow: 3px 3px 0 #000,-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+h2 {
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3{
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+@media screen and (min-width: 500px) {
+
+    #box {
+            float: left;
+            width: 50%;
+            background-color: grey;
+    }
+
+@media screen and (min-width: 800px) {
+
+    #box1 {
+            float: left;
+            width: 30%;
+            background-color: grey;
+    }
+}
+    
+footer {
+    clear: both;
+}
+    
+aside {
+    width: 100%;
+    background-color: black;
+}
+    
+
