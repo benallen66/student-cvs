@@ -1,44 +1,41 @@
- 	p {
-		color: yellow;
-		background-color: #000000;
-		font-size: 14px;
-		font-family: "serif;
+ 	body {
+		background-color: orange;
 		display: block;
+		}
 		
+	h1 {
+		text-align: center;
+		}
+	h3 {
+		text-align: center;
+		}
 		
-	}	
-div {
-		color: red;
-		background-color: #000000;
+	li {
+		font-size: 14px;
+		}
+		
+	.info {
+		text-align: center;
+		color: black;
 		font-size: 14px;
 		font-family: "serif;
-		display: inline;
-	}
-
-     .CV {
-		background-color: white;
+		}
+		
+	.skill {
+		color: black;
+		font-size: 14px;
+		font-family: "serif;
+		} 
+	
+	.summary {
+		text-align: center;
+		color: black;
+		font-size: 14px;
+		border: ridge;
+		border-color: black; 
 	}
 	
-	.CV span {
-		background-color: blue;
-		height: 100px;
-		width: 200px;
-	}
-		
-		
 	
-	.foo {
-		background-color: purple;
-	}
-	
-	.foo span {
-		background-color: blue;
-		height: 100px;
-		width: 200px;
-		display: inline-block;
-		margin-bottom: 100px;
-		
-	}
 	
 	
 	

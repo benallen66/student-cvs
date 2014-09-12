@@ -1,0 +1,14 @@
+body {
+    font-family: arial;
+    background-color: yellow;
+    padding-top: 20px;
+}
+
+.whitebackground {
+    background-color: lightgrey;
+    width: 95%;
+    height: 95%;
+    margin:  0 auto 0 auto;
+    padding: 10px;
+}
+    
