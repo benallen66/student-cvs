@@ -1,0 +1,67 @@
+ 	body {
+		background-color: #60A88E;
+		display: block;
+		}
+		
+	header h1 {
+		text-align: center;
+		}
+	h3 {
+		text-align: left;
+		padding: 3px;
+		}
+		
+	li {
+		font-size: 14px;
+		}
+		
+	.info {
+		text-align: center;
+		color: black;
+		font-size: 14px;
+		font-family: "serif;
+		}
+		
+	.message{
+		text-align: center;
+		} 
+		
+	div.skill {
+		text-align: left;
+		color: black;
+		font-size: 14px;
+		padding: 2em;
+		border: solid;
+		margin: 5px;
+		}
+
+	.summary {
+		text-align: left;
+		color: black;
+		font-size: 14px;
+		padding: 2em;
+		border: solid;
+		margin: 5px;
+		}
+	
+	.employment {
+		text-align: left;
+		color: black;
+		font-size: 14px;
+		padding: 2em;
+		border: solid;
+		margin: 5px;
+		}
+	.education {
+		text-align: left;
+		color: black;
+		font-size: 14px;
+		padding: 2em;
+		border: solid;
+		margin: 5px;
+		}
+	
+	
+	
+	
+	
