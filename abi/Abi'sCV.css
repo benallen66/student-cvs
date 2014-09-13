@@ -1,11 +1,37 @@
  	body {
-		background-color: #60A88E;
+		background-color: #FFFF99;
 		display: block;
+		font-family: Arial, Helvetica, sans-serif;
 		}
 		
 	header h1 {
 		text-align: center;
 		}
+		
+	button{
+		border-radius: 100%;
+		background-color: green;
+		height: 70px;
+		width: 75px;
+		}
+		
+	footer {
+		font-size: 16px;
+		color: red;
+	} 
+	
+	/* unvisited link*/
+	a:hover{
+		color: purple;
+		text-decoration: none;
+		}
+		
+	h1 {
+		color: #800000;
+		text-align: right;
+		font-size: 2em;
+		}
+	
 	h3 {
 		text-align: left;
 		padding: 3px;
@@ -22,46 +48,51 @@
 		font-family: "serif;
 		}
 		
+	.message h2 {
+		color: #800000;
+		} 
+	
 	.message{
 		text-align: center;
 		} 
 		
 	div.skill {
-		text-align: left;
+		text-align: justify;
 		color: black;
 		font-size: 14px;
 		padding: 2em;
 		border: solid;
 		margin: 5px;
+		border-left-style: dotted;
 		}
 
 	.summary {
-		text-align: left;
+		text-align: justify;
 		color: black;
 		font-size: 14px;
 		padding: 2em;
 		border: solid;
+		border-left-style: dotted;
 		margin: 5px;
 		}
 	
 	.employment {
-		text-align: left;
+		text-align: justify;
 		color: black;
 		font-size: 14px;
 		padding: 2em;
 		border: solid;
 		margin: 5px;
+		border-left-style: dotted;
 		}
+		
 	.education {
-		text-align: left;
+		text-align: justify;
 		color: black;
 		font-size: 14px;
 		padding: 2em;
 		border: solid;
 		margin: 5px;
+		border-left-style: dotted;
 		}
-	
-	
-	
-	
 	
