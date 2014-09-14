@@ -1,48 +1,39 @@
 <!doctype html>
 <html>
 
+<script>
+	function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+
 <head>
 <title> Aaron's CV </title>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href ="CSS/styles.css">
-<script type="text/javascript">
-    function unhide(Personal-Details, Education, Jobs, Contact) {
-    var item = document.getElementById(divID);
-    if (item) {
-            item.className=Jobs?'unhidden':'hidden';
-        }
-        document.getElementById(Education).className = 'hidden';
-        document.getElementById(Jobs).className = 'hidden';
-        document.getElementById(Contact).className = 'hidden';
-    }
-</script>
 </head>
 
 <body>
-<div class="Header">
 <h1><header>Aaron Muir</header></h1>
-</div>
 
-<!--<nav class="Main-Navigation">
-	<ul>
-	<li><a href="#Education">Education</a></li>
-	<li><a href="#Jobs">Jobs</a></li>
-	<li><a href ="#Footer">Footer</a></li>
-	</ul>
-</nav>-->
-
-<p style="padding-top:20px">
-    <a href="javascript:unhide('Jobs', 'Contact')" class="button">This is a link</a><br><br>
-    <a href="javascript:unhide('Contact', 'Jobs')" class="button">About</a>
-</p>
-
-<div class="vcard">
-	<div id="Personal-Details">	
-	<span class="fn">Aaron Muir</span>
-	<span class="adr">Isleworth, Middlesex</span>
+<main>
+	<div class="vcard">
+		<section id="Personal-Details">	
+		<span class="left"><a href="tel:077463221292"> Phone</a></span>
+		<span class="fn">Aaron Muir - </span>
+		<span class="adr">Isleworth, Middlesex</span>
+		<span class="right"><a href="mailto:amuir@testingcircle.com">Email</a></span>
+		</section>
 	</div>
-		<div id="Education">
-		<details><header><h1>Education</h1></header>
-		<h3> High School </h3>
+		<section id="Education">
+		<details><header><h2>Education</h2></header>
+		<h3> GCSE'S </h3>
 			<ul>
 			<li> English - A </li>
 			<li> Maths - A </li>
@@ -52,47 +43,44 @@
 			<ul>
 			<li> Computing - Pass </li>
 			</ul>
-		</div>
-		<hr> </hr>
+		</section>
 		</details>
-		<div id="Jobs">
-		<header><h1>Jobs</h1></header>
-			<img src="Images/tc-logo.png" alt="Testing Circle Logo"></img>
+		<section id="Jobs">
+		<header><h2>Jobs</h2></header>
 			<a href="http://www.testingcircle.com/"><h3><span class="title">Trainee Developer in Test </span>- Testing Circle</h3></a>
-
-			<p>Use of <abbr title="HyperText Markup Language">HTML</abbr> and other things. Currently this far through the training course:
-			 <progress value="20" max="100"></progress></p>
-			 <p></p>
+			<div align="center"><img src="Images/tc-logo.png" alt="Testing Circle Logo"></img></div>
+			Currently on a training course to be a Developer in Test. <br></br>Learning many things including the use of <abbr title="HyperText Markup Language">HTML</abbr>, manual testing, Ruby and automated testing.
+			<p></p>
 			<span class="title"><h3>Weather Man</h3></span>
-			Description of something. Start date: <time itemprop="startDate" datetime="2012-1-20">20th January 2012</time> 
+			<div align="center"><a href="http://www.west-cheshire.ac.uk/"><img src="Images/wcc.png" alt="West Cheshire College Logo"></img></a></div>
+			Ran a small team of students to install a weather station on both college campus' <br></br>Start date: <time itemprop="startDate" datetime="2012-1-20">20th January 2012</time> 
 
 			<h3>Nature Dev</h3>
-			<strong>DESCRIPTION OF STUFF.</strong><em> Start date, Finish date</em>
-			<p>Test paragraph to test if this is working</p>
-		</div>
-	<hr></hr>
+			Created an android application for adding wildlife sightings to a database whilst automatically retrieving gps location.
+			<br></br>Start date: <time itemprop="startDate" datetime="2012-1-20">20th January 2011</time>
+		</section>
 
-	<div id="Contact">
-	<form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform">
-	<label for="name">Name:</label>
-	<input type="text" name="name" id="name">
+	<section id="Contact">
+	<form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform" onsubmit="return validateForm();">
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name">
 
-	<label for="email">Email:</label>
-	<input type="email" name="email" id="email">
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email">
 
-	<input type="hidden" name="addressee" id="addressee" value="Aaron">
+		<input type="hidden" name="addressee" id="addressee" value="Aaron">
 
-	<label for="message">Message:</label>
-	<textarea id="message" name="message" rows="8"
-	cols="40"></textarea>
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" width="70%"
+		height="70%"></textarea>
 
-	<input type="submit" value="Save"?>
-</form>
-	</div>
-	<div id="Footer">
-	<footer><br>T:<a href="tel:077463221292"> 077463221292</a> E:<a href="mailto:amuir@testingcircle.com">amuir@testingcircle.com</a> @aMuir </footer>
-	</div>
+		<input type="submit" value="Save"?>
+	</form>
+</main>
+<div id="Footer">
+<footer><br>T:<a href="tel:077463221292"> 077463221292</a> E:<a href="mailto:amuir@testingcircle.com">amuir@testingcircle.com</a> @aMuir </footer>
 </div>
+</section>
 </body>
 	
 </html>
