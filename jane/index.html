@@ -3,6 +3,9 @@
 	<head>
 		<link rel="stylesheet" href="stylesheet.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
 		<!-- Title of the page, creates the tab title-->
 		<title> Jane's Test CV</title>
 	</head>
@@ -24,7 +27,7 @@
 					</div>
 			</div>
 			<div class="BacktoTop">
-				<p><a href=#>Top<img src="icons/arrow_up.png" alt ="Back to Top" height= "30px" width= "30px" /></a></p>
+				<p><a href="#">Top <img src="icons/arrow_up.png" alt ="Back to Top" height= "30px" width= "30px" /></a></p>
 			</div>
 	
 	<body><!-- Start of the CV-->
@@ -41,15 +44,17 @@
 						
 					</div>
 			<div class="pagecontainer">
+				<div class="name">
+						<h1>Jane Last </h1>
+				</div>
+				<div class="number">
+					<h1>07599 70 99 83</h1>
+				</div>
 				
 				<div class ="personal" id= "personal">
-					
-					<!-- Start of the Personal Details section-->
-					
-					<h1>Jane Last </h1>
+								<!-- Start of the Personal Details section-->
 					<address>
-						<strong>Phone: </strong>07599 70 99 83<br />
-						<strong>E-mail: </strong>jane.kempton@gmail.com <br />
+					<strong>E-mail: </strong>jane.kempton@gmail.com <br />
 						<strong>Address: </strong>Flat 91, 4 Sutton Park Road, Sutton, Surrey, SM1 2GB
 					</address>
 						<!-- end of the Personal Details section-->
@@ -57,7 +62,7 @@
 					</div>
 				<div name = "education" id= "education">
 					<!-- Start of Education section-->
-					<p><h1>Education </h1>
+					<p><h2>Education </h2>
 						<table>
 							<tr>
 								<td>2010 &#45; 2014</td>
@@ -78,13 +83,14 @@
 				<hr />
 				<div name= "qualification" id= "qualification">
 					<!-- Start of Qualification/Skills/System Exp section-->
-					<h1>Qualifications</h1>
-					<p>BTEC I.T National Practitioners Award<br />
+					<h2>Qualifications</h2>
+					<p>ISTQB Foundation Level<br />
+						BTEC I.T National Practitioners Award<br />
 						BTEC Business National Practitioners Certificate<br />
-						NVQ Admin in Word Processing<br />
-						GCSE I.T, GCSE Maths, GCSE English, GCSE Science, GCSE Japanese.<br />
-					<h4>BSc(Hons) Business and Information Systems &#45; 2.1 </h4>
-					<strong>First Year</strong>  <br />
+						GCSE I.T, GCSE Maths, GCSE English, GCSE Science, GCSE Japanese<br />
+						</p>
+					<h3>BSc(Hons) Business and Information Systems &#45; 2.1 </h3>					
+					<p><strong>First Year</strong>  <br />
 							Business Problem Solving <br />
 							Systems Analysis and Design<br />
 							Group Project<br />
@@ -126,10 +132,10 @@
 				<hr />
 				<!-- Start of Work Exp section-->
 				<div id= "workexp">
-					<p><h1>Work Experience</h1>
+					<p><h2>Work Experience</h2>
 						<table>
 			  				<tr>
-			    				<td time datetime="2012-07 & 2013-04">July 2012 &#45; April 2013</td>
+			    				<td>July 2012 &#45; April 2013</td>
 			    				<td><strong>LV</strong>, London</td> 
 			    			</tr>
 			    			<tr>
@@ -141,28 +147,43 @@
 			   					<td>Test execution via Quality centre, <br /> 
 			   						minute and organise meetings, general team admin.</td>
 			  				</tr>
-						</table>
-						<ul>
-							<li>
-								<strong>Date:</strong> May 2005 &#45; June 2012 <br />
-								<strong>Where:</strong> Kemptons Butchers, Southampton<br />
-								<strong>Role:</strong> Butcher assistant<br />
-								Preparing meat for sale, customer service, stock check, financial support.<br /><br />
-							</li>
-							<li>
-								<strong>Date:</strong> February 2010<br />
-								<strong>Where:</strong> Blue Arrow Recruitment, Southampton<br />
-								<strong>Role:</strong> Assistant<br />
-								Database administration, customer service liaison.<br /><br />
-							</li>
-							<li>
-								<strong>Date:</strong> June 2006 &#45; July 2006 (2 weeks work experience)<br />             
-								<strong>Where:</strong> Weston Church Pre-School, Weston, Southampton<br />
-			     				<strong>Role:</strong>Pre-school helper<br />
-								Assisting children with everyday activities.
-			
-							</li>
-						</ul>
+							<tr>
+								<td>May 2005 &#45; June 2012</td>
+								<td><strong>Kemptons Butchers</strong>, Southampton</td>
+							</tr>
+							<tr>
+								<td> </td>
+								<td><strong>Butcher assistant</strong></td>
+							</tr>
+							<tr>
+								<td> </td>
+								<td>Preparing meat for sale, customer service, stock check, financial support.</td>
+							</tr>
+							<tr>
+								<td>February 2010</td>
+								<td><strong>Blue Arrow Recruitment</strong> , Southampton</td>
+							</tr>
+							<tr>	
+								<td> </td>
+								<td><strong>Assistant</strong></td>
+							</tr>
+							<tr>
+								<td> </td>
+								<td>Database administration, customer service liaison.</td>
+							</tr>
+							<tr>	
+								<td>2006 &#45; July 2006</td>
+								<td><strong>Weston Church Pre-School</strong> , Southampton</td>
+							</tr>            
+							<tr>	
+								<td> </td>
+			     				<td><strong>Pre-school helper</strong></td>
+			     			</tr>
+			     			<tr>
+			     				<td> </td>
+								<td>Assisting children with everyday activities.</td>
+							</tr>
+							</table>
 						</p>
 					</div>
 					<!-- End of Work Exp section-->

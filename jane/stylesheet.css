@@ -34,10 +34,38 @@ body {
 	border-top-right-radius: 25px;
 	
 }
+.name{
+	
+	display: inline-block;
+	padding-left: 35%;
+	
+}
+.number{
+	
+	display: inline-block;
+	padding-left: 5%;
+}
 
 h1{
+	
+	font-size: 30px;
+}
+.formhead{
+	text-align: center;
+}
+h2{
 	text-align: center;
 	font-size: 25px;
+}
+h3{
+	font-size: 20px;
+	padding-left: 20px;
+}
+p, address, table {
+	padding: 15px 20px
+}
+td {
+	padding-left: 10px;
 }
 .iconcontainer{
 	float: right;
@@ -75,21 +103,45 @@ a:active {
     color: #C2FFAD;
     text-decoration: none;
 }
+img{
+	padding: 5px;
+}
+label { 
+	display: inline-block; 
+	text-align: left; 
+	width: 7%;
+}
+.requiredlabel { 
+	display: inline-block; 
+	text-align: left; 
+	font-size: 12px;
+	width: 15%;
+}
+form{
+	padding: 5%;
+}
 .phoneicon, .emailicon, .homeicon, .giticon, .linkedinicon{
 	background-color: #FFFFFF;
 	border: 3px solid #FFFFFF;
 	border-radius: 100px;
-	width: 70px;
-	height: 70px;
+	width: 80px;
+	height: 80px;
 	margin: 10px;
+}
+.linkedinicon img{
+	margin: 10px 10px 0px 10px;
+}
+.giticon img{
+	margin: 8px 0px 0px 8px;
+}
+ .homeicon img, .phoneicon img, .emailicon img {
+	margin: 8px 0px 0px 8px;
 }
 .formcontainer{
 	box-sizing: border-box;
 	padding: 5px;
 }
-.education, .personal, .qualification, .workexp, .systemexp{
-	padding: 3px;
-}
+
 .footer{
 	
 	background-color: #F5F5F0;

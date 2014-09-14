@@ -26,18 +26,35 @@
 <body>
 	<div class ="container">
 		<div ="formcontainer">
-			<h1>Contact Form</h1>
-			<form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform">
-			<label for="name">Name:</label>	
-			<input type="text" name="name" id="name" />	<br />
-			<label for="email">Email:</label>
-			<input type="email" name="email" id="email" /><br />
-			<input type="hidden" name="addressee" id="addressee" value="Aaron" />
-			<label for="message">Message:</label><br />
-			<textarea name="message" id="message" rows="4" cols="50">Enter your message</textarea><br />
-			<input type="submit" id="submit" />
+			<h1 class="formhead">Contact Form</h1>
+			<form name="contact"method="post" action="http://lacedeamon.spartaglobal.com/contactform" >
+			<label for="name">*Name:</label>	
+			<input type="text" name="name" id="name" required/>	<br />
+			<label for="email">*Email:</label>
+			<input type="email" placeholder="me@example.com" name="email" id="email" required/><br />
+			<input type="hidden" name="addressee" id="addressee" value="Jane" />
+			<label for="message">*Message:</label><br />
+			<textarea name="message" id="message" rows="4" cols="50" placeholder="Enter your message" required ></textarea><br />
+			<label class="requiredlabel" for="submit">* Required</label><br />
+			<input type="submit" id="submit"  onclick="Javascript:checkEmail();" />
 			</form>
 		</div>
 	</div>		
 </body>
+<footer> 
+	<script>
+function checkEmail() {
+
+    var email = document.getElementById('email');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email.value)) {
+    alert('Please provide a valid email address');
+    email.focus;
+    return false;
+ }
+}
+
+	</script>
+</footer>
 </html>
