@@ -6,6 +6,8 @@
     
 }
 
+
+
 body {
         
         font-family: 'Open Sans', serif;
@@ -15,9 +17,22 @@ body {
 
 div.Trishul {
         align-content: left;
-        font-size: 50px;
         background-color: lightgrey;
+        color: black;
+        float: left;
     }
+
+.links {
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border:5px solid grey;
+}
 
 
 
@@ -26,17 +41,11 @@ div.Trishul {
     border-color: grey;
     border-width: 10px;
     background-color: lightgrey;
+    clear: both;
     
 }
 
 
-div.details {
-    
-    font-size: 20px;
-    padding-bottom: 5px;
-    background-color: grey;
-    
-}
 
 
 h1 {
@@ -46,7 +55,6 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
     margin: 0%;
 }
 
@@ -59,10 +67,6 @@ h3.details {
     text-align: center;
 }
 
-
-#PersonalDetails {
-    background-color: teal;
-}
 
 #Education {
     width: 100%;
@@ -113,18 +117,95 @@ footer {
 }
     
 
+
+@media screen and (min-width: 250px) {
+
+    body {
+        font-size: 13px;
+    }
+    
+    div.Trishul {
+        font-size: 15px;
+    }
+    
+    img {
+    width: 50px;
+    height: 50px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 17px;
+    }
+    
+    .links {
+    margin-left: 0;
+    }
+    
+}
+    
+    
 @media screen and (min-width: 500px) {
 
-    #box {
-            width: 50%;
-            background-color: grey;
+    body {
+      font-size: 15px;  
     }
+    
+    div.Trishul {
+        font-size: 30px;
+    }
+    
+    img {
+    width: 75px;
+    height: 75px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    .links {
+    margin-left: 0;
+    }
+
+}
+    
 
 @media screen and (min-width: 800px) {
-
-    #box1 {
-            width: 30%;
-            background-color: grey;
+    
+    body {
+     font-size: 20px;   
     }
 
+    div.Trishul {
+        font-size: 50px;
+    }
+    
+    img {
+    width: 100px;
+    height: 100px;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 25px;  
+    }
+    
+    .links {
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+    
+}
 
