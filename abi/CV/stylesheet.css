@@ -1,5 +1,5 @@
  	body {
-		background-color: #F08080;
+		background-color: #300000;
 		display: block;
 		font-family: Arial, Helvetica, sans-serif;
 		}
@@ -17,7 +17,7 @@
 		}
 		
 	footer {
-		font-size: 16px;
+		font-size: 18px;
 		color: #800000;
 		text-align: center;
 		} 
@@ -28,6 +28,7 @@
 		}
 	a:link {
 		text-decoration: none;
+		color: white;
 		}
 		
 	h1 {
@@ -43,7 +44,7 @@
 		}
 		
 	li {
-		font-size: 14px;
+		font-size: 18px;
 		}
 		
 	.bu {
@@ -61,8 +62,8 @@
 	.info p {
 		text-align: center;
 		color: black;
-		font-size: 14px;
-		font-family: serif;
+		font-size: 18px;
+		font-family: Arial, Helvetica, sans-serif;
 		}
 	
 	.info p b {
@@ -89,7 +90,7 @@
 		}
 		
 	.message h2 {
-		color: #800000;
+		color: white;
 		} 
 		
 	/*removes buttons and contact form if CV needs to be printed */
@@ -117,7 +118,7 @@
 	div.skill {
 		text-align: justify;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 		padding: 3%;
 		border: solid;
 		margin: 5px;
@@ -128,7 +129,7 @@
 	.summary {
 		text-align: justify;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 		padding: 3%;
 		border: solid;
 		border-radius: 10px;
@@ -139,7 +140,7 @@
 	.employment {
 		text-align: justify;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 		padding: 3%;
 		border: solid;
 		border-radius: 10px;
@@ -150,7 +151,7 @@
 	.education {
 		text-align: justify;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 		padding: 3%;
 		border: solid;
 		border-radius: 10px;
@@ -161,7 +162,7 @@
 	.ai {
 		text-align: justify;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 		padding: 3%;
 		border: solid;
 		border-radius: 10px;
@@ -172,7 +173,7 @@
 	.ref {
 		text-align: justify;
 		color: black;
-		font-size: 14px;
+		font-size: 18px;
 		padding: 3%;
 		border: solid;
 		border-radius: 10px;
