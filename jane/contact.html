@@ -1,47 +1,49 @@
 <!doctype html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="stylesheet.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<!-- Title of the page, creates the tab title-->
 		<title> Jane's Contact Form</title>
 	</head>
-	<div class="iconcontainer">
-					<div class="homeicon">
-						<a href="index.html"><img class ="iconimg" src="icons/home.png" alt="Home Icon" height="64" width="64"></a>
-					</div>
-					<div class="phoneicon">
-						<a href="tel:07599709983"><img class ="iconimg" src="icons/phone.png" alt="Phone Icon" height="64" width="64" /></a>
-					</div>
-					<div class="emailicon">
-						<a href="contact.html"><img class ="iconimg" src="icons/mail.png" alt="Email Icon" height="64" width="64" /></a>
-					</div>
-					<div class="giticon">
-						<a href="https://github.com/JaneLast" target="_blank"><img class ="iconimg" src="icons/github.png" alt="GitHub Icon" height="64" width="64" /></a>
-					</div>
-					<div class ="linkedinicon">
-						<a href="http://uk.linkedin.com/pub/jane-last/65/823/a71/" target="_blank"><img class ="iconimg" src="icons/linkedin.png" alt="LinkedIn Icon" height="55" width="55" /></a>
-					</div>
-			</div>
+
 <body>
+	<div class="iconcontainer">
+			<div class="homeicon">
+				<a href="index.html"><img class ="iconimg" src="icons/home.png" alt="Home Icon" height="64" width="64"></a>
+			</div>
+			<div class="phoneicon">
+				<a href="tel:07599709983"><img class ="iconimg" src="icons/phone.png" alt="Phone Icon" height="64" width="64" /></a>
+			</div>
+			<div class="emailicon">
+				<a href="contact.html"><img class ="iconimg" src="icons/mail.png" alt="Email Icon" height="64" width="64" /></a>
+			</div>
+			<div class="giticon">
+				<a href="https://github.com/JaneLast" target="_blank"><img class ="iconimg" src="icons/github.png" alt="GitHub Icon" height="64" width="64" /></a>
+			</div>
+			<div class ="linkedinicon">
+				<a href="http://uk.linkedin.com/pub/jane-last/65/823/a71/" target="_blank"><img class ="iconimg" src="icons/linkedin.png" alt="LinkedIn Icon" height="55" width="55" /></a>
+			</div>
+	</div>
+
 	<div class ="container">
-		<div ="formcontainer">
+		<div class ="formcontainer">
 			<h1 class="formhead">Contact Form</h1>
-			<form name="contact"method="post" action="http://lacedeamon.spartaglobal.com/contactform" >
+			<form name="contact" method="post" action="http://lacedeamon.spartaglobal.com/contactform">
 			<label for="name">*Name:</label>	
 			<input type="text" name="name" id="name" required/>	<br />
 			<label for="email">*Email:</label>
 			<input type="email" placeholder="me@example.com" name="email" id="email" required/><br />
 			<input type="hidden" name="addressee" id="addressee" value="Jane" />
 			<label for="message">*Message:</label><br />
-			<textarea name="message" id="message" rows="4" cols="50" placeholder="Enter your message" required ></textarea><br />
+			<textarea name="message" id="message" rows="4" cols="50" placeholder="Enter your message" required></textarea><br />
 			<label class="requiredlabel" for="submit">* Required</label><br />
 			<input type="submit" id="submit"  onclick="Javascript:checkEmail();" />
 			</form>
 		</div>
 	</div>		
-</body>
-<footer> 
+
 	<script>
 function checkEmail() {
 
@@ -56,5 +58,6 @@ function checkEmail() {
 }
 
 	</script>
-</footer>
+
+</body>
 </html>
