@@ -1,14 +1,82 @@
 body {
     font-family: arial;
-    background-color: yellow;
+    background-color: #E6E6E6;
     padding-top: 20px;
+    color: #2E2E2E;
 }
 
-.whitebackground {
-    background-color: lightgrey;
+.textbackground {
+    border-radius: 15px;
+    border: 2px solid #848484;
+    box-shadow: 10px 10px 10px #888888;
+    background-color: white;
     width: 95%;
     height: 95%;
     margin:  0 auto 0 auto;
     padding: 10px;
 }
+
+.divide {
+    display: block;
+    width: 97%;
+	margin: 0 auto 0 auto;
+	padding: 12px; 
+	border-bottom: 2px solid grey;	
+    float: left;
+}
+
+.nameformat {
+    float: left;
+    padding-top: 40px;
+    font-size: 40px;
+    text-shadow: 3px 3px #BDBDBD;
+}
+
+.headingformat {
+    font-size: 27px;
+}
+
+.address {
+    text-align: right;
+    float: right;
+}
+
+a:link {
+COLOR: grey;
+}
+a:visited {
+COLOR: grey;
+}
+a:hover {
+COLOR: black;
+}
+a:active {
+COLOR: purple;
+}
+
+.padding {
+    padding-top: 20px;
+}
+
+.paddown {
+    padding-top: 50px;
+}
+
+.paddownlarge {
+    padding-top: 120px;
+}
+
+
+@media screen and (max-width: 454px) {
+
+    .address {
+        padding-top: 20px;
+        text-align: left;
+        float: left;
+    }
     
+    .paddownlarge {
+    padding-bottom: 100px;
+}
+    
+}
