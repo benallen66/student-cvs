@@ -17,10 +17,10 @@
 		
 	footer {
 		font-size: 16px;
-		color: red;
+		color: #800000;
+		text-align: right;
 	} 
 	
-	/* unvisited link*/
 	a:hover{
 		color: purple;
 		text-decoration: none;
@@ -41,6 +41,10 @@
 		font-size: 14px;
 		}
 		
+	.bu {
+		text-align: center;
+		}
+		
 	.info {
 		text-align: center;
 		color: black;
@@ -48,6 +52,21 @@
 		font-family: "serif;
 		}
 		
+	.button {
+		text-decoration: none;
+		text-align: center;
+		display: inline;
+		margin: auto;
+		width:50em;
+		height:100px;
+		border-radius:50px;
+		font-size:19px;
+		color:#fff;
+		line-height:100px;
+		background:#000;
+		padding: 30px;
+		}
+
 	.message h2 {
 		color: #800000;
 		} 
