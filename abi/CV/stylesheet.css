@@ -1,0 +1,181 @@
+ 	body {
+		background-color: #F08080;
+		display: block;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+	
+	header h1 {
+		text-align: center;
+		font-weight: 900;
+		}
+		
+	button{
+		border-radius: 100%;
+		background-color: green;
+		height: 70px;
+		width: 75px;
+		}
+		
+	footer {
+		font-size: 16px;
+		color: #800000;
+		text-align: center;
+		} 
+	
+	a:hover {
+		color: purple;
+		text-decoration: none;
+		}
+	a:link {
+		text-decoration: none;
+		}
+		
+	h1 {
+		color: #FFFFF0;
+		text-align: right;
+		font-size: 2em;
+		padding; 100px;
+		}
+	
+	h4 {
+		text-align: left;
+		padding: 3px;
+		}
+		
+	li {
+		font-size: 14px;
+		}
+		
+	.bu {
+		text-align: center;
+		}
+	
+	.number {
+	    position: fixed;
+		top: 1.5px;
+		left: 5px;
+		color: white;
+		margin-left: 0.9cm;
+		}
+		
+	.info p {
+		text-align: center;
+		color: black;
+		font-size: 14px;
+		font-family: serif;
+		}
+	
+	.info p b {
+		visibility: hidden;
+		}
+		
+	.pcontainer {
+		padding: 23px;
+		}
+		
+	.button {
+		text-decoration: none;
+		text-align: center;
+		display: inline;
+		margin: auto;
+		width:50em;
+		height:100px;
+		border-radius:50px;
+		font-size:19px;
+		color:#fff;
+		line-height:100px;
+		background:#000;
+		padding: 30px;
+		}
+		
+	.message h2 {
+		color: #800000;
+		} 
+		
+	/*removes buttons and contact form if CV needs to be printed */
+@media print {
+	.message, .bu {
+		display: none;
+			}
+	/*shows email if CV needs to be printed */
+	.info p b {
+		display: block-inline;
+		visibility: visible;
+			}
+	/*prints entire document in black coloured font on a white background */
+	.education, footer, .skill, p {
+		 color:#000000;
+		 background-color:#FFFFFF;
+		}
+	}
+
+	.message{
+		text-align: center;
+		padding: 23px;
+		} 
+		
+	div.skill {
+		text-align: justify;
+		color: black;
+		font-size: 14px;
+		padding: 3%;
+		border: solid;
+		margin: 5px;
+		border-left-style: dotted;
+		border-radius: 10px;
+		}
+	
+	.summary {
+		text-align: justify;
+		color: black;
+		font-size: 14px;
+		padding: 3%;
+		border: solid;
+		border-radius: 10px;
+		border-left-style: dotted;
+		margin: 5px;
+		}
+	
+	.employment {
+		text-align: justify;
+		color: black;
+		font-size: 14px;
+		padding: 3%;
+		border: solid;
+		border-radius: 10px;
+		margin: 5px;
+		border-left-style: dotted;
+		}
+		
+	.education {
+		text-align: justify;
+		color: black;
+		font-size: 14px;
+		padding: 3%;
+		border: solid;
+		border-radius: 10px;
+		margin: 5px;
+		border-left-style: dotted;
+		}
+		
+	.ai {
+		text-align: justify;
+		color: black;
+		font-size: 14px;
+		padding: 3%;
+		border: solid;
+		border-radius: 10px;
+		margin: 5px;
+		border-left-style: dotted;
+		}
+	
+	.ref {
+		text-align: justify;
+		color: black;
+		font-size: 14px;
+		padding: 3%;
+		border: solid;
+		border-radius: 10px;
+		margin: 5px;
+		border-left-style: dotted;
+		}
