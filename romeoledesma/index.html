@@ -1,140 +1,145 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles/styles.css">
+        <!-- Google fonts! :) -->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="stylesheets/styles.css"/>    
         <title>Romeo Ledesma</title>
     </head>
     
     <body>
-        <header>
-            <img src="images/profile_pic.jpg" width="150" height="150">
-            <h1>CV Profile</h1>
+        <div class="header">
+            <header role="banner">
+                <div class="section_title">
+                    <h1>CV</h1>
+                </div>
+                
+                <div class="profile_pic">
+                    <img src="images/profile_pic.jpg" width="200" height="260" alt="romeo's primary photo">
+                </div>
+
+                <div class="profile">
+                    <span class="fullname">
+                        <strong>Romeo Ledesma</strong><br>
+                    </span>
+                    <span class="title">
+                        Developer in Test Trainee
+                    </span>
+                    |
+                    <span class="org">
+                        Testing Circle Ltd
+                    </span>
+                    
+                    <hr>
+                    
+                    <address>
+                        <strong>mobile</strong><br><a href="tel:07789961806">07789 961 806</a><br>
+                        <strong>email</strong><br><a href="mailto:rledesma@testingcircle.com">rledesma@testingcircle.com</a>
+                    </address> 
+                </div>
+            </header>
+            <section id="links">
+                <div class="links">
+                    <table style="width:100%">
+                        <tr>
+                            <td><a href="https://github.com/romeoledesma" target="_blank"><img src="images/github_icon.png" width="75" height="75" alt="github logo"></a></td>
+                            <td><a href="https://www.linkedin.com/in/romeoledesma" target="_blank"><img src="images/linkedin_icon.png" width="75" height="75" alt="linkedin logo"></a></td>
+                            <td><a href="https://facebook.com/ledesma.romeo" target="_blank"><img src="images/fb_icon.png" width="75" height="75" alt="facebook logo"></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+                
+            <section id="contact">
+                <div class="section_title">
+                    <h1>CONTACT ME</h1>
+                </div>
+                
+                <div class="contact">
+                    <form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform/"><strong>
+                        <label for="name">Name</label> <!-- Name of the sender --><br>
+                        <input type="text" name="name" id="name"> <!-- Input for the sender's name --><br><br>
+                        <label for="email">Email Address</label> <!-- Label for the email field --><br>
+                        <input type="email" name="email" id="email"> <!-- Input field for the sender's email -->
+                        <input type="hidden" name="addressee" id="address" value="Romeo Ledesma"> <!-- The addressee would always be me, Romeo! :) --><br><br>
+                        <label for="message">Message</label> <!-- Label for the message field --><br>
+                        <textarea rows="4" cols="25" name="message" id="message"></textarea> <!-- Input field for the message --><br>
+                        <input type="submit" value="Send Message"> <!-- button to send the message through --></strong>
+                    </form>
+                </div>
+            </section>
+        </div>
+        
+        <div class="background">
+            <section id="summary">
+                <div class="section_title">
+                    <h1>SUMMARY</h1>
+                </div>
+
+                <div class="summary_info">
+                    <p>
+                        I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in the field of software                             testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical skills in Agile development particularly in automation                         testing using Watir, Selenium and RSpec.
+                        <br><br>
+                        My personal goal is to realize the vision of the company that I am currently working in which is to provide high-caliber software testing support in whichever company I'll                         be working for. As a trainee, I am expected to become a highly skilled ISEB ISTQB accredited software tester which will provide me with the software testing foundations                           that I plan to develop further later in my career.
+                    </p>
+                </div>
+            </section>
             
-            <div class="profile">
-                <span class="fullname">
-                    Romeo Ledesma
-                </span>
-                
-                <span class="title">
-                    Developer in Test Trainee at 
-                </span>
-                
-                <span class="org">
-                    Testing Circle Ltd | Information Technology
-                </span>
-                
-                <span class="org">     <!-- workplace -->
-                    Testing Circle Ltd | Information Technology and Services
-                </span>
+            <section id="education">
+                <div class="section_title">
+                    <h1>EDUCATION</h1>
+                </div>
+                         
+                <div class="education">
+                    <img src="images/Greenwich_logo.jpg" alt="Greenwich University logo"><br>
+                    <strong>The University of Greenwich</strong><br>
+                    BEng Software Engineering<br>
+                    2011 - 2014
+                    <hr>
+                    <img src="images/Nescot_logo.jpg" alt="NESCOT college logo"><br>
+                    <strong>NESCOT College</strong><br>
+                    IT PRACTITIONERS National Diploma<br>
+                    2009 - 2011
+                </div>
+            </section>
             
-                </font>       <!-- end of font settings for job position and workplace -->
-
-                <address>
-                    telephone: <a href="tel:07789961806">07789 961 806</a> | email: <a href="mailto:rledesma@testingcircle.com">rledesma@testingcircle.com</a>
-                </address>
-
-                <br>
-
-                <span class="mini_details">Previous</span> Nascot Arms Thai Cuisine
-                <br>
-                <span class="mini_details">Education</span> University of Greenwich
+            <section id="work_experience">
+                <div class="section_title">
+                    <h1>WORK EXPERIENCE</h1>
+                </div>
+                
+                <div class="work_experience">
+                    <img src="images/tc_logo.jpg" alt="Testing Circle logo"><br>
+                    <strong>Developer in Test Trainee</strong><br>
+                    Jul 2014 - Present
+                    <hr>
+                    <img src="images/Nascot_logo.jpg" alt="Nascot Arms logo"><br>
+                    <strong>Waiter</strong><br>
+                    Feb 2013 - Aug 2013
+                </div>
+            </section>
+            
+            <section id="skills">
+                <div class="section_title">
+                    <h1>SKILLS</h1>
+                </div>
+                
+                <div class="skills">
+                    <strong>Programming</strong><br>
+                    C/C++, C#, JAVA, Python, Ruby<br>
+                    <strong>Software Testing</strong><br>
+                    Ruby, Watir<br>
+                    <strong>Web Development</strong><br>
+                    HTML, CSS, Javascript, JQuery
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+            <div class="footer">
+                <strong>DESIGNED BY ROMEO LEDESMA
+                </strong>
             </div>
-        </header>
-        
-        <section class="summary">
-            <h1>Summary</h1>
-            <p>
-                I am currently being trained in the field of Development in Test, under the direct supervision of a very accomplished trainer who specializes in                 the field of software testing and web development. I am on track to learn commercial-level skills in Ruby programming as well as technical skills                 in Agile development particularly in automation testing using Watir, Selenium and RSpec.
-            </p>
-        </section>
-        
-        <section class="education">
-            <h1>Education</h1>
-            
-			<!-- Start of University Education Section -->
-			<section id="Education_University">
-				<p>
-					<a href="http://www.gre.ac.uk/" target="_blank">
-						<img class="logo" src="images/Greenwich_logo.jpg" alt="Greenwich University logo"/><br><br>
-					</a>
-					<strong><font size=4>University of Greenwich</font></strong><br>
-					<font size=4>Bachelor of Engineering (BEng), Computer Software Engineering</font><br>
-					<font size=3, color="grey">2011-2014</font><br>
-				</p>
-			</section>
-			<!--  End of University Education Section  -->
-
-            <hr width="50%"> <!-- Just a separator :) -->
-            
-			<!-- Start of College Education Section -->
-			<section id="Education_College">
-				<p>
-					<a href="http://www.nescot.ac.uk/">
-						<img class="logo" src="images/Nescot_logo.jpg" alt="Nescot College logo" width="180" height="60"/><br><br>
-					</a>
-					<strong><font size=4>NESCOT College</font></strong><br>
-					<font size=4>BTEC Level 3 IT Practitioners National Diploma (Software Development), DDM</font><br>
-					<font size=3, color="grey">2009 - 2011</font><br>
-				</p>
-			</section>
-			<!--  End of College Education Section  -->
-        </section>
-        
-        <section class="work_xp">
-		    <h1>Work Experience</h1>
-            
-			<section id="Work1"> <!-- Start of Work 1 Section -->
-				<p>
-					<a href="http://www.testingcircle.com/" target="_blank">
-						<img class="logo" src="images/tc_logo.jpg" alt="Testing Circle logo" width="130" height="70" />
-					</a>
-					<br>
-					<strong><font size=4>Developer in Test Trainee</font></strong><br>
-					<font size=4>Testing Circle Ltd</font><br>
-					<font size=3, color="grey">August 2014 - Present(2 months) | Richmond, London</font><br>
-				</p>
-				<p>
-					I will be undertaking an intensive 12-week Development in Test training to help me become an ISEB ISTQB accredited software tester which                         will allow me to gain professional and credible skills in the field of manual and automated software testing.
-				</p>
-			</section> 			 <!--  End of Work 1 Section  -->
-			<hr width="50%">
-			<section id="Work2"> <!-- Start of Work 2 Section -->
-				<p>
-					<a href="http://www.nascotarms.co.uk/nascot-food.php" target="_blank">
-						<img class="logo" src="images/Nascot_logo.jpg" alt="Nascot Arms logo" width="170" height="25" /><br>
-					</a>
-					<strong><font size=4>Waiter</font></strong><br>
-					<font size=4>Nascot Arms Thai Cuisine</font><br>
-					<font size=3, color="grey">February 2013 - August 2013(7 Months) | Watford, United Kingdom</font><br>
-				</p>
-				<p>
-					I was in charge of servicing 12 tables during busy nights (Fridays and Saturdays mainly) and was also simultaneously in charge of handling                       take-away phone orders. Worked hard and effectively alongside my co-workers to consistently meet customer expectations and also to deliver                       the best customer service that we could possibly offer.
-				</p>
-			</section> 			 <!--  End of Work 2 Section  -->
-
-        </section>
-        
-        <section class="skills">
-        
-        </section>
-        
-        <section class="contact">
-            <h1>Contact Me</h1>
-            <p>
-                <form method="post" action="http://lacedeamon-dev.spartaglobal.com/contactform/">
-                    <label for="title">Name</label> <!-- Name of the sender --><br>
-                    <input type="text" name="name" id="name"> <!-- Input for the sender's name --><br><br>
-                    
-                    <label for="title">Enter your email address</label> <!-- Label for the email field --><br>
-                    <input type="email" name="email" id="email"> <!-- Input field for the sender's email -->
-                    
-                    <input type="hidden" name="addressee" id="address" value="Romeo Ledesma"> <!-- The addressee would always be me, Romeo! :) --><br><br>
-                    
-                    <label for="title">Message</label> <!-- Label for the message field --><br>
-                    <textarea rows="4" cols="50" name="message" id="message"></textarea> <!-- Input field for the message --><br><br>
-                    
-                    <input type="submit" value="Send Message"> <!-- button to send the message through -->
-                </form>
-            </p>
-        </section>
+        </footer>
     </body>
 </html>
